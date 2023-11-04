@@ -1,0 +1,61 @@
+/*    !* Basic table styling *!*/
+/*table {*/
+/*    border-collapse: collapse;*/
+/*    width: 100%;*/
+/*    margin: 20px 0;*/
+/*}*/
+
+/*th, td {*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 8px;*/
+/*    text-align: left;*/
+/*}*/
+
+/*th {*/
+/*    background-color: #f2f2f2;*/
+/*}*/
+
+/*!* Media query for responsive design *!*/
+/*@media screen and (max-width: 600px) {*/
+/*    table {*/
+/*        border: 0;*/
+/*    }*/
+
+/*    table thead {*/
+/*        display: none;*/
+/*    }*/
+
+/*    table tr {*/
+/*        margin-bottom: 10px;*/
+/*        display: block;*/
+/*    }*/
+
+/*    table td {*/
+/*        border: none;*/
+/*        border-bottom: 1px solid #ccc;*/
+/*        position: relative;*/
+/*        padding-left: 50%;*/
+/*    }*/
+
+/*    table td:before {*/
+/*        position: absolute;*/
+/*        top: 6px;*/
+/*        left: 6px;*/
+/*        width: 45%;*/
+/*        padding-right: 10px;*/
+/*        white-space: nowrap;*/
+/*    }*/
+
+/*    table td:nth-of-type(1):before { content: "Student ID: "; }*/
+/*    table td:nth-of-type(2):before { content: "Name: "; }*/
+/*    table td:nth-of-type(3):before { content: "DOB: "; }*/
+/*    table td:nth-of-type(4):before { content: "Medical Condition: "; }*/
+/*    table td:nth-of-type(5):before { content: "Medication: "; }*/
+/*    table td:nth-of-type(6):before { content: "Doctor's Name: "; }*/
+/*    table td:nth-of-type(7):before { content: "Doctor's Phone Number: "; }*/
+/*    table td:nth-of-type(8):before { content: "Scholarship Name: "; }*/
+/*    table td:nth-of-type(9):before { content: "Scholarship Provider: "; }*/
+/*    table td:nth-of-type(10):before { content: "Scholarship Amount: "; }*/
+/*    table td:nth-of-type(11):before { content: "Scholarship Start Date: "; }*/
+/*    table td:nth-of-type(12):before { content: "Scholarship End Date: "; }*/
+/*}*/

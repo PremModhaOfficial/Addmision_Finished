@@ -35,6 +35,19 @@ if (move_uploaded_file($_FILES["document"]["tmp_name"], $targetFile)) {
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Retrieve form data
+
+    //$folder="/images";
+$filename= $_FILES["uploadfile"]["name"];
+$tempname= $_FILES["uploadfile"]["tmp_name"];
+$folder="images/".$filename;
+echo $folder;
+move_uploaded_file($tempname,$folder)
+
+
+
+
+
+
   $standard = $_POST["standard"];
   $sex = $_POST["sex"];
   $name = $_POST["name"];
@@ -119,4 +132,4 @@ else {
 // You can perform database operations here
 
 // Close the database connection when done
-$mysqli->close();
+$mysqli->close();}

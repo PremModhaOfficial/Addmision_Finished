@@ -1,6 +1,3 @@
-scholarship details:
-
-
 <?php
 // Replace with your database connection details
 $host = "localhost"; // Hostname
